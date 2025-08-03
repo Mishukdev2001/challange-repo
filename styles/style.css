@@ -1,0 +1,25 @@
+/* navigation related styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+/* shared styles */
+.text-primary{
+ color: orange;
+}
+
+.dark-2{
+    color:#474747;
+}
