@@ -1,4 +1,15 @@
 /* navigation related styles */
+
+.header {
+    background-color: #fd670a19;
+    background-image: url(../images/developer.png);
+    background-image: url(../images/hardy.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1600px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -14,12 +25,41 @@ ul li a {
     text-decoration: none;
 }
 
-
-/* shared styles */
-.text-primary{
- color: orange;
+.content {
+    margin: 200px 700px 300px 200px;
 }
 
-.dark-2{
-    color:#474747;
+.description {}
+
+
+/* shared styles */
+.btn-primary {
+    background-color: orange;
+    color: aliceblue;
+}
+
+
+.text-primary {
+    color: orange;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+/* about me related style */
+.about-me {
+    margin: 100px 230px;
+    padding: 130px 150px;
+    background-color: #fd670a19;
+border-radius: 5px;
+}
+.border{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
 }
